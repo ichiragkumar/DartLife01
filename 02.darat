@@ -14,3 +14,14 @@ void main() {
     print('At position ${superheros.indexOf(heroItrar)}') ;   
   });
 }
+var superheros = ['Thor', 'Loki', 'Iron Man', 'Captain Marvel', 'Hawkye'];
+  superheros.forEach((heroItrar){
+    
+    
+    // this will print only the list of the hero not there index
+    print('${heroItrar}');
+    
+    
+    //ok.. make sure that index of heros start from 1 to n...
+    print('At position ${superheros.indexOf(heroItrar)}') ;   
+  });
